@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.tool{
+    display: flex;
+    align-items: center;
+    background-color: rgb(198, 57, 177);
+}
+
+
+.tool > *{
+    background-color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#save{
+    margin-left: auto;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Drawing App</title>
+</head>
+<body>
+    <div class="tool">
+        <input type="color" id="color">
+
+        <button id="eraser">
+            <i class='bx bxl-steam'></i>
+        </button>
+
+        <button id="decrease">
+            -
+        </button>
+
+        <button id="size">
+            20
+        </button>
+
+        <button id="increase">
+            +
+        </button>
+
+        <a id="save" download="nmc.png">
+            <i class='bx bxs-save'></i>
+        </a>
+
+        <button id="clear">
+            <i class='bx bx-exit' ></i>
+        </button>
+    </div>
+
+    <canvas width="1800" height="800">
+
+    </canvas>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
